@@ -7,7 +7,7 @@ spring:
 
 mybatis-plus:
   mapper-locations: classpath:mappers/**/*Mapper.xml
-  type-aliases-package: com.kdyzm.swagger
+  type-aliases-package: com.kdyzm.swagger.register.server.entity
   global-config:
     banner: false
   configuration:

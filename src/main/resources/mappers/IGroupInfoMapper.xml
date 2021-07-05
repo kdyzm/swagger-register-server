@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.kdyzm.swagger.register.server.dao.IGroupInfoMapper">
+<mapper namespace="com.kdyzm.swagger.register.server.mapper.IGroupInfoMapper">
 
     <resultMap type="com.kdyzm.swagger.register.server.entity.GroupInfo" id="GroupInfoResult">
                     <result property="id" column="id"/>

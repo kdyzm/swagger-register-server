@@ -68,4 +68,25 @@
             <version>8.0.23</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>swagger-register-server</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.4</version>
+                <configuration>
+                    <mainClass>com.kdyzm.swagger.register.server.Application</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

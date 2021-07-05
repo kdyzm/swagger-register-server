@@ -11,5 +11,4 @@ import org.springframework.context.annotation.Configuration;
 @MapperScan("com.kdyzm.swagger.register.server.mapper")
 public class Config {
     
-    
 }

@@ -1,4 +1,4 @@
-package com.kdyzm.swagger.register.server.dao;
+package com.kdyzm.swagger.register.server.mapper;
 
 import java.util.List;
 
