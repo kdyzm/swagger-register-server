@@ -50,5 +50,22 @@
             <artifactId>hutool-all</artifactId>
             <version>5.7.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.23</version>
+        </dependency>
     </dependencies>
 </project>
