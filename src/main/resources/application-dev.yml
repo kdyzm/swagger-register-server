@@ -1,6 +1,21 @@
 spring:
   application:
     name: swagger-register-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.ip}:${nacos.port}
+        group: DEFAULT_GROUP
+  #eureka:
+  #  client:
+  #    serviceUrl:
+  #      defaultZone: http://127.0.0.1:8765/eureka/
+  #    fetch-registry: true
+  #    registry-fetch-interval-seconds: 30
+  #  instance:
+  #    prefer-ip-address: true
+  #    lease-renewal-interval-in-seconds: 5
+  #    lease-expiration-duration-in-seconds: 15
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver

@@ -22,8 +22,8 @@ public class Knife4jConfiguration {
     public Docket defaultApi2() {
         Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
-                        //.title("swagger-bootstrap-ui-demo RESTful APIs")
-                        .description("# swagger-bootstrap-ui-demo RESTful APIs")
+                        .title("swagger注册中心api接口文档标题")
+                        .description("swagger注册中心api接口文档")
                         .termsOfServiceUrl("http://www.xx.com/")
                         .contact(new Contact("一枝梅", "https://blog.kdyzm.cn", "kdyzm@foxmail.com"))
                         .version("1.0")
