@@ -23,5 +23,6 @@ CREATE TABLE `swagger_json` (
                                 UNIQUE KEY `swagger_json_groupname` (`group_name`) COMMENT 'groupName唯一'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-insert  into `group_info`(`id`,`name`,`location`,`version`,`url`,`app_name`,`gateway`) values
+/*insert  into `group_info`(`id`,`name`,`location`,`version`,`url`,`app_name`,`gateway`) values
 (1,'swagger注册中心','/v2/api-docs?group=swagger注册中心','2.0','/v2/api-docs?group=swagger注册中心','swagger-register-server',NULL);
+*/
