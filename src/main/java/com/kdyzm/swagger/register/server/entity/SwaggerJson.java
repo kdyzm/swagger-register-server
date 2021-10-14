@@ -15,31 +15,37 @@ import java.io.Serializable;
 
 
 /**
-* 【请填写功能名称】对象 swagger_json
-*
-* @author kdyzm
-* @date 2021-07-05
-*/
+ * 【请填写功能名称】对象 swagger_json
+ *
+ * @author kdyzm
+ * @date 2021-07-05
+ */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("swagger_json")
 @ApiModel(value = "SwaggerJson对象", description = "【请填写功能名称】表")
-public class SwaggerJson implements Serializable{
-    private static final long serialVersionUID=1L;
+public class SwaggerJson implements Serializable {
+    private static final long serialVersionUID = 1L;
 
-    /**  */
-    @ApiModelProperty(value = "")
+    /**
+     *
+     */
+    @ApiModelProperty(value = "Id", required = false, example = "1")
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
-    /**  */
+    /**
+     *
+     */
     @NotEmpty
-    @ApiModelProperty(value = "")
+    @ApiModelProperty(value = "", required = true)
     @TableField("group_name")
     private String groupName;
 
-    /** swagger具体信息 */
+    /**
+     * swagger具体信息
+     */
     @NotEmpty
     @ApiModelProperty(value = "swagger具体信息")
     @TableField("content")
