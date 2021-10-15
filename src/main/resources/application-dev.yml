@@ -4,9 +4,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: ${nacos.ip}:${nacos.port}
+        server-addr: 49.234.14.191:8849
         group: DEFAULT_GROUP
         ip: 49.234.14.191
+        port: 8102
   #eureka:
   #  client:
   #    serviceUrl:

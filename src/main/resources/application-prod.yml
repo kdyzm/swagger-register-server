@@ -1,12 +1,13 @@
 spring:
   application:
-    name: ${swagger.register.name}
+    name: ${swagger.register.name:swagger.register.server}
   cloud:
     nacos:
       discovery:
-        server-addr: ${nacos.ip}:${nacos.port}
-        group: DEFAULT_GROUP
-        ip: ${nacos.regist.ip}
+        server-addr: ${nacos.ip:49.234.14.191}:${nacos.port:8849}
+        group: ${server.groupName:DEFAULT_GROUP}
+        ip: ${nacos.regist.ip:49.234.14.191}
+        port: ${nacos.regist.port:8102}
   #eureka:
   #  client:
   #    serviceUrl:
