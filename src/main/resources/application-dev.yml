@@ -6,6 +6,7 @@ spring:
       discovery:
         server-addr: ${nacos.ip}:${nacos.port}
         group: DEFAULT_GROUP
+        ip: 49.234.14.191
   #eureka:
   #  client:
   #    serviceUrl:
