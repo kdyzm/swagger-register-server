@@ -4,10 +4,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 49.234.14.191:8849
+        server-addr: nacos.kdyzm.cn
         group: DEFAULT_GROUP
-        ip: 49.234.14.191
-        port: 8102
+        ip: swagger.kdyzm.cn
+        port: 80
   #eureka:
   #  client:
   #    serviceUrl:

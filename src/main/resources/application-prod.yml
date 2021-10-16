@@ -4,10 +4,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: ${nacos.ip:49.234.14.191}:${nacos.port:8849}
+        server-addr: ${nacos.ip:nacos.kdyzm.cn}:${nacos.port:80}
         group: ${server.groupName:DEFAULT_GROUP}
-        ip: ${nacos.regist.ip:49.234.14.191}
-        port: ${nacos.regist.port:8102}
+        ip: ${nacos.regist.ip:swagger.kdyzm.cn}
+        port: ${nacos.regist.port:80}
   #eureka:
   #  client:
   #    serviceUrl:
